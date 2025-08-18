@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-image: url(img/fundoo.jpg);
+    background-repeat: no-repeat;    
+    background-position: top;
+    background-size: cover;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+   /* background-color: black; */
+    padding: 3px;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+li{
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+li:hover{
+    border-bottom: 1px solid white;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.adega{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.info{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid black;
+    border-radius: 1rem 1rem ;
+    margin: 25px;
+    padding: 35px;
+    width: 350px;
+    height: 90%;
+    background-color: white;
+}
+
+h4{
+    text-align: center;
+}
+.whisky{
+    width: 298px;
+    margin: 10px;
+    height: 195px;
+}
+.perdi{
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.perdi:hover{
+    background-color: black;
+    color: white;
+}
