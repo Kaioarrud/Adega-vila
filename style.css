@@ -9,12 +9,11 @@ body{
     background-repeat: no-repeat;    
     background-position: top;
     background-size: cover;
-}
+} 
 .conteiner{
     display: flex;
     justify-content: space-around;
-   /* background-color: black; */
-    padding: 3px;
+    background-color: black; 
 }
 .logo{
     width: 100px;
@@ -28,57 +27,105 @@ ul{
     margin: 10px;
 }
 li{
-    color: white;
+   color: white;
     margin: 20px;
     cursor: pointer;
 }
 li:hover{
     border-bottom: 1px solid white;
 }
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
+
 .adega{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+   
 }
 .info{
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "Roboto", sans-serif;
     border: 1px solid black;
     border-radius: 1rem 1rem ;
-    margin: 25px;
-    padding: 35px;
-    width: 350px;
-    height: 90%;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
     background-color: white;
 }
 
 h4{
     text-align: center;
+    font-family: sans-serif;
+    font: 200;
+
 }
 .whisky{
-    width: 298px;
-    margin: 10px;
-    height: 195px;
+    width: 239px;
+    height: 105;
+    margin: 20px;
+    
 }
 .perdi{
-    background-color: gray;
+    background-color: rgb(197, 183, 183);
+    font-family: "Open Sans", sans-serif;
     border: none;
     cursor: pointer;
-    margin: 10px;
-    width: 150px;
-    height: 30px;
+    margin: 26px;
+    width: 190px;
+    height: 40px;
     border-radius: 20px;
 }
 
 .perdi:hover{
-    background-color: black;
+    background-color: rgb(92, 184, 92);
+    color: rgb(0, 77, 162);
+}
+.lo {
+    display: flex;
+    padding-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.nossal {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nossal .loja{
+    width: 480px;
+    height: 280px;
+    margin: 20px;
+}
+.sobre > h3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
     color: white;
+}
+.sobre > p{
+    color: white;
+    margin: 30px;
+    text-align: center;
+    width: 450px;
+    font: 500;
+}
+
+.variedade {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.bebidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem 1rem;
+    width: 240px;
+    margin: 10px;
 }
