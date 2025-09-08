@@ -81,34 +81,30 @@ h4{
     background-color: rgb(92, 184, 92);
     color: rgb(0, 77, 162);
 }
+
+/* loja */
+
 .lo {
     display: flex;
-    padding-bottom: 5rem;
     justify-content: center;
-    align-items: center;
-}
-.nossal {
-    display: flex;
-    justify-content: space-between;
-   
+    flex-wrap: wrap;
 }
 .nossal .loja{
-    width: 480px;
+    width: 400px;
     height: 280px;
     margin: 20px;
 }
-.sobre > h3{
+.sobre > h1{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 20px;
+    padding: 45px;
     color: white;
 }
 .sobre > p{
     color: white;
-    margin: 30px;
     text-align: center;
-    width: 450px;
+    width: 400px;
     font: 500;
 }
 
@@ -128,4 +124,32 @@ h4{
     border-radius: 1rem 1rem;
     width: 240px;
     margin: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.infosist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1rem 1rem;
+    cursor: pointer;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.infosist > h3{
+    text-align: center;
+    margin: 5px;
+}
+.infosist > P{
+    text-align: center;
+    margin: 5px;
 }
