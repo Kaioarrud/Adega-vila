@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Mobile.css">
     <link rel="shortcut icon" href="img/logo-adega.png" type="image/x-icon">
     <title>Adega vila</title>
 </head>
 <body>
     <header class="conteiner">
         <img src="img/logo-adega.png" alt="logo" class="logo">
-      <ul>
-        <li>Home</li>
-        <li>Contato</li>
-        <li>Sobre nós</li>
-      </ul>
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span id="hambuger"></span>
+            </button>
+            <ul id="menu"> 
+                <li>Home</li>
+                <li>Contato</li>
+                <li>Sobre nós</li>
+            </ul>
+       </nav>
     </header>
     <main class="adega">
         </div>
@@ -161,6 +167,17 @@
                 <p>Você não gostou do que comprou? Devolva! No Adega villa, não há nada que você não possa fazer, porque você está sempre protegido.</p>
             </div>
         </footer>
+
+         <script>
+        const btnMobile = document.getElementById ('btn-mobile');
+
+        function toggleMenu(){
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('active');
+        }
+
+        btnMobile.addEventListener('click', toggleMenu);
+    </script> 
 </body>
 </html>
 
