@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 
 
@@ -12,31 +14,37 @@ body{
     background-repeat: no-repeat;    
     background-position: top;
     background-size: cover;
-} 
-.conteiner{
-    display: flex;
-    justify-content: space-around;
-    background-color: black; 
 }
-.logo{
-    width: 100px;
-    height: 50px;
-    margin: 10px;
 
+/* Cabeçalho */
+
+
+.container{
+     display: flex;
+     justify-content: space-around;
 }
-ul{
+
+.menu{
     display: flex;
     justify-content: space-between;
     margin: 10px;
 }
 li{
-   color: white;
-    margin: 20px;
+   color: #dfd3a4;
+    margin: 15px;
     cursor: pointer;
 }
 li:hover{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #dfd3a4;
 }
+
+
+.logo-marca{
+    height: 90px;
+    margin: 15px;
+}
+
+
 
 .adega{
     display: flex;
@@ -87,7 +95,7 @@ h4{
     font-family: "Libre Bodoni", serif;
 }
 .perdi{
-    background-color: rgb(197, 183, 183);
+    background-color: rgb(102, 93, 93);
     font-family: "Open Sans", sans-serif;
     border: none;
     cursor: pointer;
@@ -99,7 +107,6 @@ h4{
 
 .perdi:hover{
     background-color: rgb(92, 184, 92);
-    color: rgb(0, 77, 162);
 }
 
 /* loja */
@@ -183,3 +190,4 @@ h3{
     text-align: center;
     margin: 5px;
 }
+

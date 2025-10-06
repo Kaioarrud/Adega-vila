@@ -1,2 +1,79 @@
+@media (max-width: 600px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #btn-mobile{
+        display: block;
+    }
+      #btn-mobile{
+        display: flex;
+        padding: 10px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        gap: .5rem;
+        background: none;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        transform: rotate(.3s);
+    }
+    li:hover{
+        color: white;    
+        border-bottom: none;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        right: 0px;
+        height: 0px;
+        top: 70px;
+        visibility: hidden;
+        overflow-y: hidden;
+        background: rgb(0, 0, 0);
+        transition: .6s;
+    }
+     #menu a:hover{
+        padding: 10px;
+        border-bottom: 2px solid white;
+    }
+    #nav.active #menu{
+        height: calc(100vh - 25px);
+        visibility: visible;
+    }
+   
+    #hambuger{
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hambuger::after, #hambuger::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: white;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    /* fazer o menu vira um x */
+      #nav.active #hambuger{
+        border-top: transparent;
+      }
+    #nav.active #hambuger::after{
+        transform: rotate(-135deg);
+        top: -7px;
 
+    }
+    #nav.active #hambuger::before{
+        transform: rotate(135deg);
+    }
 }
+

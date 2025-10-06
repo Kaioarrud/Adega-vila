@@ -9,18 +9,18 @@
     <title>Adega vila</title>
 </head>
 <body>
-    <header class="conteiner">
-        <img src="img/logo-adega.png" alt="logo" class="logo">
+    <header class="container">
+        <img src="img/logo-adega.png" alt="logo" class="logo-marca">      
         <nav id="nav">
             <button id="btn-mobile">
                 <span id="hambuger"></span>
-            </button>
-            <ul id="menu"> 
-                <li>Home</li>
-                <li>Contato</li>
-                <li>Sobre nós</li>
+            </button>      
+            <ul id="menu" class="menu"> 
+                <li><a href="home"></a>Home</li>
+                <li><a href="contato"></a>Contato</li>
+                <li><a href="#sobre"></a>Sobre nós</li>
             </ul>
-       </nav>
+        </nav>  
     </header>
     <main class="adega">
         </div>
@@ -168,16 +168,17 @@
             </div>
         </footer>
 
-         <script>
-        const btnMobile = document.getElementById ('btn-mobile');
+        <script>
+            const btnMobile = document.getElementById('btn-mobile');
 
-        function toggleMenu(){
-            const nav = document.getElementById('nav');
-            nav.classList.toggle('active');
-        }
+            function toggleMenu(){
+                const nav = document.getElementById('nav');
+                nav.classList.toggle('active');
+            }
 
-        btnMobile.addEventListener('click', toggleMenu);
-    </script> 
+
+          btnMobile.addEventListener('click', toggleMenu);
+        </script>
 </body>
 </html>
 
