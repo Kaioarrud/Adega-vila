@@ -1,0 +1,119 @@
+@media only print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+}
+
+@media only print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+}
+
+@media only print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+}
+
+@media only print {
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+@media only print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+}
+
+@media only print {
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+@media only print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+}
+
+@media only print {
+  a {
+    word-wrap: break-word;
+  }
+}
+
+@media only print {
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+.btn-primary-fmt {
+  color: #fff;
+  background-color: #008390;
+  border-color: #008390;
+}
+
+.btn-primary-fmt:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 142, 201, 0.5);
+}
+
+.btn-primary-fmt:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #00555d;
+  border-color: #00555d;
+}
+
+.btn-primary-fmt:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,96,106,0.5);
+}
+
+.btn-primary-fmt:hover {
+  color: #fff;
+  background-color: #00606a;
+  border-color: #00606a;
+}
+
+@media only print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+}
+
+@media only print {
+  a {
+    word-wrap: break-word;
+  }
+}
+
