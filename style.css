@@ -206,21 +206,16 @@ footer{
     background-color: white;
 }
 
-.informacao{
+.footer1{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content:space-around;
 }
-.informacao  h3 {
-   
-    margin: 20px;
-}
-.sac{
-    display: flex;
+.footer1{
+    padding: 20px;
 }
 
- hr{ 
-      width: 250px;
-      margin: 0 auto;
+.conta{
     
+    margin: 20px;
 }
