@@ -206,13 +206,13 @@ h3{
 }
 
 footer{
-    height: 400px;
+    height: 500px;
     background-color: aliceblue;
    /* border: 5px 3px 7px 1px rgb(211, 0, 0);  */
 }
 footer > h3{
 
-    font-family: "Libre Bodoni", serif;
+        font-family: "Libre Bodoni", serif;
          text-align: center;
          padding: 20px;
          font-size: 20px;
@@ -231,10 +231,9 @@ footer > h3{
      margin: 20px;
      font-family: "Oswald", sans-serif;
       font-style: normal;
+          font-weight: 100;
+
 }
-
-
-
 
 .contato > label{
     display: flex;
@@ -256,16 +255,19 @@ footer > h3{
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
+hr{
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 20px;
+}
+footer > h4{
+    text-align: center;
+    margin: 20px;
+     font-family: "Oswald", sans-serif;
+    font-weight: 200;
+}
 .pagamento > h4{
     margin: 20px;
-        font-family: "Libre Bodoni", serif;
+     font-family: "Oswald", sans-serif;
 
 }
